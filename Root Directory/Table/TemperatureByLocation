@@ -1,45 +1,45 @@
 <!DOCTYPE html>
- <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Temperature by location</title>
-    </head>
-    <body>
-        <style>
-            table, tr, td{
-                border: 1px solid black;
-            }
-        </style>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Temperature by location</title>
+</head>
+<body>
+    <style>
+        table, tr, td {
+            border: 1px solid black;
+        }
+    </style>
 
-        <table>
-            <caption>Temperature by location</caption>
-            <tr>
-                <th rowspan="2">location</th>
-                <th colspan="3">temperature(Celsius)</th>
-            </tr>
-            <tr>
-                <th>average</th>
-                <td>highest</th>
-                <th>lowest</th>
-            </tr>
-            <tr>
-                <td>Tokyo</td>
-                <td>15.5</td>
-                <td>20.6</td>
-                <td>8.8</td>
-            </tr>
-            <tr>
-                <td>Newyork</td>
-                <td>14.2</td>
-                <td>19.6</td>
-                <td>7.9</td>
-            </tr>
-            <tr>
-                <td>London</td>
-                <td>13.9</td>
-                <td>19.2</td>
-                <td>6.5</td>
-            </tr>
-        </table>
-    </body>
- </html>
+    <table>
+        <caption>Temperature by location</caption>
+        <tr>
+            <th rowspan="2">location</th>
+            <th colspan="3">temperature(Celsius)</th>
+        </tr>
+        <tr>
+            <th>average</th>
+            <th>highest</th>
+            <th>lowest</th>
+        </tr>
+        <tr>
+            <td>Tokyo</td>
+            <td>15.5</td>
+            <td>20.6</td>
+            <td>8.8</td>
+        </tr>
+        <tr>
+            <td>Newyork</td>
+            <td>14.2</td>
+            <td>19.6</td>
+            <td>7.9</td>
+        </tr>
+        <tr>
+            <td>London</td>
+            <td>13.9</td>
+            <td>19.2</td>
+            <td>6.5</td>
+        </tr>
+    </table>
+</body>
+</html>
