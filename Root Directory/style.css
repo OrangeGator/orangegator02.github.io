@@ -6,9 +6,9 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
 }
-table:hover{
+section.td:hover{
     color: lightgreen;
 }
-table{
+section.table{
     color: green;
 }
