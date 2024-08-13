@@ -6,9 +6,3 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
 }
-section.coloring div table tr td:hover{
-    color: lightgreen;
-}
-section.table{
-    color: green;
-}
