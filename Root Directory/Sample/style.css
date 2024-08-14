@@ -1,0 +1,14 @@
+h2{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+}
+p.title_blue{
+    font-size:20px;
+    color:white;
+    background-color:rgb(79, 119, 194);
+    padding-right:60px;
+}
+img.image_classic{
+    padding:15px;
+}
