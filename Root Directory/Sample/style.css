@@ -3,12 +3,12 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     background-color: aliceblue;
 }
-p.title_blue{
+p{
     font-size:20px;
     color:white;
     background-color:rgb(79, 119, 194);
     padding-right:60px;
 }
-img.image_classic{
+img{
     padding:15px;
 }
