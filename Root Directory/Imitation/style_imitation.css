@@ -1,1 +1,25 @@
-
+img.penguin {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+    border-radius: 60px;
+}
+img.football {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+img.tictakto {    
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border: 27px solid #000;
+    border-image: url(tic-tac-toe.png);
+}
+img.dinosaur {  
+    -webkit-filter: hue-rotate(90deg);
+    filter: hue-rotate(90deg);  
+}
+img.seagull{    
+}
+img.butterfly{    
+}
+img.theater{
+}
