@@ -2,7 +2,7 @@ img.penguin {
     -webkit-filter: sepia(100%);
     filter: sepia(100%);
     border-radius: 50%;
-    border: solid #000;
+    border: 1px solid #000;
 }
 img.football {
     -webkit-filter: grayscale(100%);
