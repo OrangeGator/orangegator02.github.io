@@ -1,6 +1,6 @@
 img.penguin {
-    -webkit-filter: sepia(20%);
-    filter: sepia(20%);
+    -webkit-filter: sepia(50%);
+    filter: sepia(50%);
     border-radius: 50%;
     border: 1px solid #000;
 }
