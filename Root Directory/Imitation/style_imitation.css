@@ -9,9 +9,26 @@ img.football {
     filter: grayscale(100%);
 }
 img.tictakto {    
-    border: 27px solid #000;
-    border-image: url(tic-tac-toe.png) 27 round;
+   .box {
+     width: 50vw;
+     height: 50vh;
+     overflow: hidden
+     min-width: 150px;
+     min-height: 60px
+     display: grid;
+     place-items: center;
+     border-image: url(tic-tac-toe.png) 27 / 27px / 0 round;
+     border-width: 27px;
+     border-style: solid;
 }
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+    
 img.dinosaur {
     -webkit-filter: hue-rotate(90deg) drop-shadow(10px 1px 5px #000000);
 }
