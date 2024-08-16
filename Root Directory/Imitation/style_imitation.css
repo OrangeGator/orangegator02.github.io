@@ -12,8 +12,7 @@ img.football {
 }
 
 img.tictakto {
-     border-image: url(tic-tac-toe.png) 250 / 125px / 10px round;
-     border-style: solid;
+     border-image: url(tic-tac-toe.png) 550 / 225px / 10px round;
      -webkit-filter: grayscale(100%);
 }
 
