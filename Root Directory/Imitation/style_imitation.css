@@ -24,7 +24,10 @@ img.tictakto {
 img.dinosaur {
     -webkit-filter: hue-rotate(90deg) drop-shadow(10px 1px 5px #000000);
 }
-img.seagull{    
+img.seagull{
+    height: 400px;
+    background-image: linear-gradient(-90deg, white, rgb(140,140,255));
+    -webkit-filter: drop-shadow(0px 10px 15px 5px);
 }
 img.butterfly{    
 }
