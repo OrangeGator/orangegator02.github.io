@@ -15,8 +15,8 @@ img.tictakto {
     border-image: url(tic-tac-toe.png);
 }
 img.dinosaur {  
-    -webkit-filter: hue-rotate(45deg); 
-    filter: hue-rotate(45deg); 
+    -webkit-filter: hue-rotate(45deg); drop-shadow(-5px -5px 5px #000000);
+    filter: hue-rotate(45deg); drop-shadow(-5px -5px 5px #000000);
 }
 img.seagull{    
 }
