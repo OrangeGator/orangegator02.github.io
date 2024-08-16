@@ -12,17 +12,15 @@ img.football {
 }
 
 img.tictakto {
-     border-image: url(tic-tac-toe.png) 550 / 225px / 10px round;
-     -webkit-filter: grayscale(100%);
+  width: 300px;
+  height: 200px;
+  border-width: 30px;
+  border-style: solid;
+  border-image: url(tic-tac-toe.png) ;
+  border-image-slice: 30;
+  border-image-repeat: round;
 }
 
-body {
-  height: 100vh;
-  margin: 0;
-  display: grid;
-  place-items: center;
-}
-    
 img.dinosaur {
     -webkit-filter: hue-rotate(90deg) drop-shadow(10px 1px 5px #000000);
 }
