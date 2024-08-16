@@ -11,14 +11,10 @@ img.football {
     -webkit-filter: grayscale(100%);
 }
 
-img.tictakto {    
-     width: 200px;
-     height: 100px;
-     border-image: url(tic-tac-toe.png);
-     border-image-slice: 10;
-     border-width: 10px;
-     border-imge-repeat: round 
+img.tictakto {
+     border-image: url(tic-tac-toe.png) 250 / 125px / 10px round;
      border-style: solid;
+     -webkit-filter: grayscale(100%);
 }
 
 body {
