@@ -13,12 +13,13 @@ img.tictakto {
      width: 50vw;
      height: 50vh;
      overflow: hidden
+     resize: both;
      min-width: 150px;
      min-height: 60px
      display: grid;
      place-items: center;
-     border-image: url(tic-tac-toe.png) 27 / 27px / 0 round;
-     border-width: 27px;
+     border-image: url(tic-tac-toe.png) 28 / 28px / 0 round;
+     border-width: 28px;
      border-style: solid;
 }
 
