@@ -4,15 +4,12 @@ img.penguin {
     border-radius: 50%;
     border: 1px solid #000;
 }
+
 img.football {
-   width: 200px;
-   height: 80px;
-   padding-top: 25px;
-    background-color: #08AEEA;
-    background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-    text-align: center;
-    margin: 0 auto;
+    margin: auto;
+    display: block;
     -webkit-filter: grayscale(100%);
+}
 
 img.tictakto {    
      width: 50vw;
