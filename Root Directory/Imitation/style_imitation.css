@@ -14,13 +14,10 @@ img.tictakto {
     border: 27px solid #000;
     border-image: url(tic-tac-toe.png);
 }
-img.dinosaur {  
-    -webkit-filter: drop-shadow(-5px -5px 5px #000000);
-    filter: drop-shadow(-5px -5px 5px #000000);
-}
 img.dinosaur {
-    -webkit-filter: hue-rotate(90deg);
-    filter: hue-rotate(90deg);
+    -webkit-filter: hue-rotate(90deg) drop-shadow(-5px -5px 5px #000000);
+    filter: hue-rotate(90deg) drop-shadow(-5px -5px 5px #000000);
+}
 img.seagull{    
 }
 img.butterfly{    
