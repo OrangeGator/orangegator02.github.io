@@ -16,7 +16,7 @@ img.tictakto {
 }
 img.dinosaur {  
     -webkit-filter: hue-rotate(90deg) drop-shadow(5px 5px -5px #000000);
-    filter: hue-rotate(90deg); drop-shadow(5ps 5ps -5px #000000);
+    filter: hue-rotate(90deg); drop-shadow(5px 5px -5px #000000);
 }
 img.seagull{    
 }
