@@ -10,7 +10,7 @@ img.football {
 }
 img.tictakto {    
     border: 27px solid #000;
-    border-image: url(tic-tac-toe.png);
+    border-image: url(tic-tac-toe.png) 27 round;
 }
 img.dinosaur {
     -webkit-filter: hue-rotate(90deg) drop-shadow(10px 1px 5px #000000);
