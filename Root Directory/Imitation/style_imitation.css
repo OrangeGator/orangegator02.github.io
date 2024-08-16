@@ -9,8 +9,6 @@ img.football {
     filter: grayscale(100%);
 }
 img.tictakto {    
-    -webkit-filter: invert(100%);
-    filter: invert(100%);
     border: 27px solid #000;
     border-image: url(tic-tac-toe.png);
 }
