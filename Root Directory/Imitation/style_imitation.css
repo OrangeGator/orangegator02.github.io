@@ -33,21 +33,21 @@ img.butterfly{
     filter: invert(100%) opacity(75%);
     border-radius: 100px 0px 100px 0px;
 }
-div.theater{
+div.theater::before{
     background-image: url(theater_stage.jpg);
     background-repeat: no-repeat;
     filter: blur(3px);
     width: 400px;
     height: 352px;
+    z-index: -1;
 }
 p#stage{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
     margin:0;
     padding:0;
     color: white;
-    font-size: 25px;
-}
+    font-size: 50px;
 }
