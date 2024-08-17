@@ -35,7 +35,9 @@ img.butterfly{
 }
 div.theater{
     filter: blur(3px);
+    width: 400px;
+    height: 352px;
 }
-p.stage{
-    filter: drop-shadow(10px 10px 15px) blur(0px)
+p#stage{
+    filter: drop-shadow(10px 10px 15px) blur(0px);
 }
