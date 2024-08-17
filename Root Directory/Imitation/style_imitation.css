@@ -33,5 +33,9 @@ img.butterfly{
     filter: invert(100%) opacity(75%);
     border-radius: 100px 0px 100px 0px;
 }
-img.theater{
+div.theater{
+    filter: blur(3px);
+}
+p.stage{
+    filter: drop-shadow(10px 10px 15px) blur(0px)
 }
