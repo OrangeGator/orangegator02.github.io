@@ -33,7 +33,7 @@ img.butterfly{
     filter: invert(100%) opacity(75%);
     border-radius: 100px 0px 100px 0px;
 }
-div.theater::before{
+div.theater:before{
     background-image: url(theater_stage.jpg);
     background-repeat: no-repeat;
     filter: blur(3px);
