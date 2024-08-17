@@ -41,10 +41,10 @@ div.theater{
     height: 352px;
 }
 p#stage{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: white;
-  padding:0 2px;
-  line-height:1.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
 }
