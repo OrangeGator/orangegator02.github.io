@@ -40,3 +40,9 @@ div.theater{
     width: 400px;
     height: 352px;
 }
+p#stage{
+    filter: blur(0px); 
+    color: white; 
+    font-size: 50px; 
+    vertical-align: middle;
+}
