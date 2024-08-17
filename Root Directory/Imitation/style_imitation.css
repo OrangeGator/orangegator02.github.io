@@ -41,8 +41,10 @@ div.theater{
     height: 352px;
 }
 p#stage{
-    filter: blur(0px); 
-    color: white; 
-    font-size: 50px; 
-    vertical-align: middle;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  padding:0 2px;
+  line-height:1.5;
 }
