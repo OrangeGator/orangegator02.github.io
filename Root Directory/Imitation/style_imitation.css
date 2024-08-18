@@ -16,7 +16,7 @@ div#tiktactoe{
 }
     
 div#football{
-    background: url(football_field.jpg);
+    background: url(../football_field.jpg);
 }
 
 img.dinosaur {
