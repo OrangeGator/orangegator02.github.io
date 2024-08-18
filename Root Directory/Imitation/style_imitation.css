@@ -16,11 +16,7 @@ div#tiktactoe{
 }
     
 div#football{
-    width: 50%;
-    margin: 0 auto;
     background: url(football_field.jpg);
-    filter: grayscale(50%);
-    padding-left: 48px;
 }
 
 img.dinosaur {
