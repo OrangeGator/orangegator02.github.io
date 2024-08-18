@@ -6,10 +6,19 @@ img.penguin {
 }
 
 div#tiktactoe{
-    border: 32px solid #ac9999;
-    border-width: 32px;
-    border-image-slice: url(tic-tac-toe.png) 32 32 32 32 ;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    border-style: solid;
+    border-width: 70px 50px 30px 60px
+    border-image-source: url(tic-tac-toe.png);
+    border-image-slice: 70 50 30 60;
+    border-width: 70px 50px 30px 60px;
+    border-image-outset: 0;
     border-image-repeat: round;
+}
 }
 
 div#football{
