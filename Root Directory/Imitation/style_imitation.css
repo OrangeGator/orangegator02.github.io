@@ -12,7 +12,7 @@ div#tiktactoe{
     padding: 20px;
     margin: 20px;
     border-style: solid;
-    border-width: 70px 50px 30px 60px
+    border-width: 70px 50px 30px 60px;
     border-image-source: url(tic-tac-toe.png);
     border-image-slice: 70 50 30 60;
     border-width: 70px 50px 30px 60px;
