@@ -60,8 +60,8 @@ img.butterfly{
 p{
   margin: 150px 0 200px;
   text-align: center;
-  font-family: 'Cinzel', serif;
-  font-size: 34px;
+  font-family: sans-serif;
+  font-size: 40px;
   color: #fff;
   text-shadow: 0 0 10px rgba(0,0,0,.4);
 }
