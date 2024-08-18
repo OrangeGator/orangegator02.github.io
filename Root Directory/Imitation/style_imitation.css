@@ -7,7 +7,7 @@ img.penguin {
 
 div#tiktactoe{
     border: 27px solid #000;
-    border-image: url(tic-tac-toe.png) 27 round;
+   border-image-slice: url(tic-tac-toe.png) 27 16 27 16 ;
 }
 
 div#football{
