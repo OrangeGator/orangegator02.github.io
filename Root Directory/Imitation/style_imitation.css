@@ -6,9 +6,9 @@ img.penguin {
 }
 
 div#tiktactoe{
-    border: 27px solid #000;
-    border-width: 27px;
-    border-image-slice: url(tic-tac-toe.png) 27 16 27 16 ;
+    border: 32px solid #ac9999;
+    border-width: 32px;
+    border-image-slice: url(tic-tac-toe.png) 32 32 32 32 ;
     border-image-repeat: round;
 }
 
