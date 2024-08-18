@@ -5,17 +5,14 @@ img.penguin {
     border: 1px solid #000;
 }
 
-img.football {
-    margin: auto;
-    display: block;
-    -webkit-filter: grayscale(100%);
+div#tiktactoe{
+    border: 27px solid #000;
+    border-image: url(tic-tac-toe.png) 27 round;
 }
 
-img.tictakto {
-  width: 548px;
-  height: 278px;
-  border-style: 27px solid #000000;
-  border-image: url(tic-tac-toe.png) 27 round;
+div#football{
+    border: 27px solid #000;
+    border-image: url(football_field.jpg) 27 round;
 }
 
 img.dinosaur {
