@@ -59,10 +59,9 @@ div.theater:before{
   z-index: -1;
 }
 p#stage{
-  vertical-align: middle;
+  text-align: center;
   font-family: sans-serif;
   font-size: 55px;
   color: #fff;
   filter: drop-shadow(10px 10px 15px #000000);
-  background-image: url(theater_stage.jpg);
 }
