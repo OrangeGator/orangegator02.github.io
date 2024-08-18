@@ -57,7 +57,7 @@ div.theater:before{
   bottom: -5px;
   z-index: -1;
 }
-p{
+p#stage{
   margin: 150px 0 200px;
   text-align: center;
   font-family: sans-serif;
