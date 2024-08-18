@@ -39,7 +39,6 @@ div.theater:before{
     filter: blur(3px);
     width: 400px;
     height: 352px;
-    z-index: -1;
 }
 p#stage{
     position: relative;
@@ -50,4 +49,5 @@ p#stage{
     padding:0;
     color: white;
     font-size: 50px;
+    z-index: -1;
 }
