@@ -34,7 +34,7 @@ img.butterfly{
     border-radius: 100px 0px 100px 0px;
 }
 
-img.bgImage{
+img.theater{
   background: url(theater_stage.jpg) no-repeat center;
   background-size: cover;
   position: relative;
@@ -42,7 +42,7 @@ img.bgImage{
   overflow: hidden;
 }
 
-img.bgImage:before{
+img.theater:before{
   content: '';
   background: inherit;
   -webkit-filter: blur(5px);
