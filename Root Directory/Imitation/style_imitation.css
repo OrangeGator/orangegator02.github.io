@@ -58,11 +58,11 @@ div.theater:before{
   bottom: -5px;
   z-index: -1;
 }
-p#stage{
-  text-shadow: 10px 10px 5px 3px #000000;
+p#stage{  
   padding-top: 130px;
   text-align: center;
   font-family: sans-serif;
   font-size: 55px;
   color: #fff;
+  text-shadow: 20px 20px 5px #000000;
 }
