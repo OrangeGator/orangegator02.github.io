@@ -34,18 +34,18 @@ img.butterfly{
     border-radius: 100px 0px 100px 0px;
 }
 
-image.theater {
+image.theater_stage.jpg {
     position: relative;
     z-index: 0;
 }
-image.theater:before{
+image.theater_stage.jpg:before{
     content: '';
     background-image: url(theater_stage.jpg);
     position: absolute;
-    top: 20;
-    left: 20;
-    width: 400px;
-    height: 352px;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
     filter: blur(3px);
     z-index: -1;
 }
