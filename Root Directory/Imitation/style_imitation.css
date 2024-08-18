@@ -6,6 +6,7 @@ img.penguin {
 }
 
 div#tiktactoe{
+div#tiktactoe{
     margin: 20px auto;
     padding: 20px;
     width: 300px;
@@ -16,7 +17,7 @@ div#tiktactoe{
 
 div#football{
     background-image: url(football_field.jpg);
-    filter: grayscale(100%);
+    filter: grayscale(50%);
     padding-left: 48px;
 }
 
