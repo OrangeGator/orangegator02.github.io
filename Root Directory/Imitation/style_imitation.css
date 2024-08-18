@@ -14,9 +14,11 @@ div#tiktactoe{
     border: 67px solid;
     border-image: url(tic-tac-toe.png) 67 67 / 67px 67px round space;
 }
-
+    
 div#football{
-    border-image: url(football_field.jpg);
+    width: 50%;
+    margin: 0 auto;
+    background: url(football_field.jpg);
     filter: grayscale(50%);
     padding-left: 48px;
 }
