@@ -16,7 +16,6 @@ div#tiktactoe{
     border-image-source: url(tic-tac-toe.png);
     border-image-slice: 60 60 60 60;
     border-width: 60px 60px 60px 60px;
-    border-image-outset: 10;
     border-image-repeat: round;
 }
 }
