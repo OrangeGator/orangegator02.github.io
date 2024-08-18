@@ -6,7 +6,7 @@ img.penguin {
 }
 
 div#tiktactoe{
-    width: 100%;
+    width: 60%;
     height: auto;
     box-sizing: border-box;
     padding: 20px;
@@ -16,8 +16,8 @@ div#tiktactoe{
     border-image-source: url(tic-tac-toe.png);
     border-image-slice: 60 60 60 60;
     border-width: 60px 60px 60px 60px;
+    border-image-outset: 0;
     border-image-repeat: round;
-}
 }
 
 div#football{
