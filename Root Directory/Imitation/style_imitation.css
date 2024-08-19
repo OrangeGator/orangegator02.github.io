@@ -5,18 +5,20 @@ img.penguin {
     border: 1px solid #000;
 }
 
-div#tiktactoe{
-div#tiktactoe{
-    margin: 20px auto;
-    padding: 20px;
-    width: 300px;
-    height: 100px;
-    border: 67px solid;
-    border-image: url(tic-tac-toe.png) 67 67 / 67px 67px round space;
+img.football {
+    margin: auto;
+    display: block;
+    -webkit-filter: grayscale(100%);
 }
-    
-div#football{
-    background-image: url(../football_field.jpg);
+
+img.tictakto {
+  width: 300px;
+  height: 200px;
+  border-width: 45px;
+  border-style: solid;
+  border-image: url(tic-tac-toe.png) round;
+  border-image-slice: 30;
+  border-image-repeat: round;
 }
 
 img.dinosaur {
