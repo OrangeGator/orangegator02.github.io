@@ -1,41 +1,47 @@
 @keyframes QuizAnimation {
     /* starts with white font color and blue background color*/
-     from { color: #ffffffd2; background-color: rgb(44, 155, 122); }
+    from {
+        color: #ffffffd2;
+        background-color: rgb(44, 155, 122);
+    }
     /* ends with blue font color and white background color*/
-     to { color: rgb(12, 163, 168); background-color: #ffffffd2; }
+    to {
+        color: rgb(12, 163, 168);
+        background-color: #ffffffd2;
+    }
 }
 
 p.animation {
     animation-name: QuizAnimation;
-    animation-duration: 1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     animation-direction: alternate;
     border-radius: 50px;
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     font-size: 10px;
     font-weight: bold;
     text-align: center;
 }
-
 p.question {
     font-size: 15px;
-    padding: 20px;   
+    padding: 20px;
 }
 
 p.answer {
     font-size: 15px;
-    width: auto; 
-    height: auto; 
-    border-radius: 20px; 
+    width: auto;
+    height: auto;
+    border-radius: 20px;
     transition: 2s;
     text-align: center;
     padding: 10px 0;
-    color: #1c7792; 
+    color: #1c7792;
     background-color: #1c7792;
 }
 
 p.answer:hover {
-    color: #1c7792; 
+    color: #1c7792;
     background-color: rgb(252, 208, 253);
 
 }
