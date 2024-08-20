@@ -5,7 +5,7 @@
      to { color: rgb(12, 163, 168); background-color: #ffffffd2; }
 }
 
-div p.animation {
+p.animation {
     animation-name: QuizAnimation;
     animation-duration: 1s;
     animation-direction: alternate;
@@ -17,12 +17,12 @@ div p.animation {
     text-align: center;
 }
 
-div p.question {
+p.question {
     font-size: 15px;
     padding: 20px;   
 }
 
-div p.answer {
+p.answer {
     font-size: 15px;
     width: auto; 
     height: auto; 
@@ -34,7 +34,7 @@ div p.answer {
     background-color: #1c7792;
 }
 
-div p.answer:hover {
+p.answer:hover {
     color: #1c7792; 
     background-color: rgb(252, 208, 253);
 
