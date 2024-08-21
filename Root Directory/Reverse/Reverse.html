@@ -75,37 +75,36 @@
                         }
                     }
                 }
-            }
-            document.getElementById("numBlack").textContent = numBlack;
-            document.getElementById("numWhite").textContent = numWhite;
+                document.getElementById("numBlack").textContent = numBlack;
+                document.getElementById("numWhite").textContent = numWhite;
             
-            let blackFlip = canFlip(BLACK);
-            let whiteFlip = canflip(WHITE);
+                let blackFlip = canFlip(BLACK);
+                let whiteFlip = canflip(WHITE);
 
-            if (numWhite + numBlack == 64 || (!blackFlip && !whiteFlip)) {
-                if (numWhite > numBlack) {
-                    document.getElementById("message").textContent = "白の勝ち！";
-                }else if(numWhite < numBlack) {
-                    document.getElementById("message").textContent = "黒の勝ち！";
-                }else if(numWhite < numBlack) {
-                    document.getElementById("message").textContent = "引き分け";
+                if (numWhite + numBlack == 64 || (!blackFlip && !whiteFlip)) {
+                    if (numWhite > numBlack) {
+                        document.getElementById("message").textContent = "白の勝ち！";
+                    }else if(numWhite < numBlack) {
+                        document.getElementById("message").textContent = "黒の勝ち！";
+                    }else if(numWhite < numBlack) {
+                        document.getElementById("message").textContent = "引き分け";
+                    }
+                    return
                 }
-                return
-            }
 
-            if  (!blackFlip) {
-                showMessage("黒スキップ");
-                muTurn = false;
-            } else if (!whiteFlip) {
-                showMessage("白スキップ");
-                myTurn = true;
-            } else {
-                myTurn = !myTurn;
+                if  (!blackFlip) {
+                    showMessage("黒スキップ");
+                    muTurn = false;
+                } else if (!whiteFlip) {
+                    showMessage("白スキップ");
+                    myTurn = true;
+                } else {
+                    myTurn = !myTurn;
+                }
+                if (!myTurn) {
+                    setTimeout(think, 1000);
+                }
             }
-            if (!myTurn) {
-                setTimeout(think, 1000);
-            }
-
         function showMessage(str) {
             document.getElementById("message").textContent = str;
             setTimeout(function () {
