@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
         <title>ReversiblePiece</title>
         <style>
             #board {
@@ -139,7 +139,7 @@
 
         function put(i, j, color) {
             let c = document.getElementById("cell" + i +j);
-            c.textContent = "●";
+            c.textContent = "&#9679;";
             c.className = "cell " + (color == BLACK ? "black" : "white");
             data[i][j] = color;
         }
