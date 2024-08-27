@@ -11,17 +11,7 @@ img.football {
     display: block;
     -webkit-filter: grayscale(100%);
     width: 30%;
-}
-
-img.tictakto {
-  width: 300px;
-  height: 200px;
-  border-width: 45px;
-  border-style: solid;
-  border-image: url(tic-tac-toe.png) round;
-  border-image-slice: 30;
-  border-image-repeat: round;
-  width: 30%;
+    background-image: url(tic-tac-toe.png);
 }
 
 img.dinosaur {
