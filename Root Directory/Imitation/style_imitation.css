@@ -9,7 +9,7 @@ img.football {
     margin: auto;
     display: block;
     -webkit-filter: grayscale(100%);
-    padding-left: 48px;
+    padding-left: 20px;
     background-repeat: no-repeat;    
 }
 
