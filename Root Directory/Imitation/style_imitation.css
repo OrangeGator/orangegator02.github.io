@@ -6,12 +6,10 @@ img.penguin {
 }
 
 img.football {
-    margin: auto;
-    display: block;
+    margin-left: auto;
+    maegin-right: auto;
     -webkit-filter: grayscale(100%);
     position: absolute;
-    right: 50%;
-    bottom: 50%;
 }
 
 img.tictakto {
