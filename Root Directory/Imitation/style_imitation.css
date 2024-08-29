@@ -11,7 +11,7 @@ img.football {
     -webkit-filter: grayscale(100%);
     position: absolute;
     top: 50%
-    left: 50%
+    right: 50%
  }
 
 img.tictakto {
