@@ -6,14 +6,13 @@ img.penguin {
 }
 
 img.football {
-    margin-top: auto;
-    margin-left: auto;
-    -webkit-filter: grayscale(100%);
-    position: absolute;
+    margin: auto;
+    background: url(football_field.jpg);
+    filter: grayscale(50%);
+    padding-left: 48px;
 }
 
 img.tictakto {
-    position: relative;
     width: 530px;
     height: 230px;
     border-style: solid;
