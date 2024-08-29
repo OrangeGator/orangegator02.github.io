@@ -10,17 +10,17 @@ img.football {
     display: block;
     -webkit-filter: grayscale(100%);
     position: absolute;
-    right: 50%
-    bottom: 50% 
+    right: 50%;
+    bottom: 50%;
 }
 
 img.tictakto {
     position: relativew;
-    width: 600px;
+    width: 530px;
     height: 230px;
     border-style: solid;
-    border-width: 27px;
-    border-image: url(tic-tac-toe.jpg) 27 / 27px round;
+    border-width: 32px;
+    border-image: url(tic-tac-toe.jpg) 32 round;
 }
 
 img.dinosaur {
