@@ -10,9 +10,8 @@ img.football {
     display: block;
     -webkit-filter: grayscale(100%);
     position: absolute;
-    right: 5px;
-    bottom: 20px;
- }
+    top: 5px;
+    left: 30px;
 }
 
 img.tictakto {
