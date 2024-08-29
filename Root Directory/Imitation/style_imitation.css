@@ -9,7 +9,12 @@ img.football {
     margin: auto;
     display: block;
     -webkit-filter: grayscale(100%);
-    background-image: url(tic-tac-toe.png);
+    float: none;
+}
+
+img.tictakto {
+    border: 27px solid #000;
+    border-image: url(tic-tac-toe2.jpg) 27 round;
 }
 
 img.dinosaur {
