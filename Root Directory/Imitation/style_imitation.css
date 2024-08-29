@@ -13,8 +13,10 @@ img.football {
 }
 
 img.tictakto {
+    width: 300px;
+    height: 200px;
     border: 27px solid #000;
-    border-image: url(tic-tac-toe.jpg) 27 / 30px round;
+    border-image: url(tic-tac-toe.jpg) 27 / 27px round;
 }
 
 img.dinosaur {
