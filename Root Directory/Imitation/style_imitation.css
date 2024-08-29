@@ -7,8 +7,8 @@ img.penguin {
 
 img.football {
     margin: auto;
-    background: url(football_field.jpg);
-    filter: grayscale(50%);
+    background-image: url(football_field.jpg);
+    filter: grayscale(100%);
     padding-left: 48px;
 }
 
