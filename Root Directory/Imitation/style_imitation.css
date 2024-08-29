@@ -10,8 +10,6 @@ img.football {
     display: block;
     -webkit-filter: grayscale(100%);
     position: absolute;
-    .absolute {
-    position: absolute;
     right: 30px;
     bottom: 30px;
  }
