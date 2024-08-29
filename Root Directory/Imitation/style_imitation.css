@@ -6,7 +6,6 @@ img.penguin {
 }
 
 img.football {
-    margin: auto;
     -webkit-filter: grayscale(100%);
     position: absolute;
     right: 30px;
