@@ -67,4 +67,8 @@ img.none {
     img.none {
         filter: grayscale(100%);
     }
+
+    a {
+        filter: grayscale(100%);
+    }
 }
