@@ -31,7 +31,7 @@ div.source {
     margin: auto;
 }
 
-div.change {
+p.change {
     width: 60%;
     height: 30px;
     background-color: whitesmoke;
@@ -39,9 +39,10 @@ div.change {
     padding: 10px;
     font-size: 15px;
     font-family: fantasy;
+    animation-duration: 1.5s;
 }
 
-div.change:hover {
+p.change:hover {
     background-color: cadetblue;
     animation-fill-mode: forwards;
 }
