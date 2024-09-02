@@ -30,3 +30,18 @@ div.source {
     padding: 10px;
     margin: auto;
 }
+
+div.change {
+    width: 60%;
+    height: 30px;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+    font-family: fantasy;
+}
+
+div.change:hover {
+    background-color: cadetblue;
+    animation-fill-mode: forwards;
+}
