@@ -37,9 +37,10 @@ p.change {
     background-color: whitesmoke;
     color: whitesmoke;
     padding: 10px;
-    font-size: 15px;
-    font-family: fantasy;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     animation-duration: 1.5s;
+    text-align: center;
 }
 
 p.change:hover {
