@@ -40,7 +40,7 @@ div.source {
 }
 
 p.change {
-    width: 60%;
+    width: 80%;
     height: 30px;
     background-color: white;
     color: white;
@@ -99,5 +99,9 @@ p.change:hover {
         padding: 10px;
         font-size: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    img.im {
+        filter: grayscale(100%);
     }
 }
