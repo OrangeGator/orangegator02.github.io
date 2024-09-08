@@ -51,9 +51,22 @@ p.change {
     text-align: center;
 }
 
+p.form_title {
+    font-size: 50px;
+}
 p.change:hover {
     background-color: cadetblue;
     animation-fill-mode: forwards;
+}
+
+img.im {
+    width: 50%;
+    height: auto;
+}
+
+img.image {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 950px) {
@@ -102,6 +115,10 @@ p.change:hover {
     }
 
     img.im {
+        filter: grayscale(100%);
+    }
+
+    img.image {
         filter: grayscale(100%);
     }
 }
