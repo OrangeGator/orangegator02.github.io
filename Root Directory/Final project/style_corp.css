@@ -24,6 +24,10 @@ video.video {
     margin: 10px;
 }
 
+p.none {
+    font-size: 20px;
+}
+
 p.text {
     font-size: 15px;
     color: white;
@@ -50,4 +54,50 @@ p.change {
 p.change:hover {
     background-color: cadetblue;
     animation-fill-mode: forwards;
+}
+
+@media (max-width: 950px) {
+    p.change {
+        width: 60%;
+        height: 30px;
+        background-color: cadetblue;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        animation-duration: 1.5s;
+        text-align: center;
+    }
+
+    p.none {
+        display: none;
+    }
+}
+
+@media print {
+    div.title {
+       background-color: dimgray;
+    }
+
+    video.video {
+        filter: grayscale(100%);
+    }
+
+    .separate {
+        background-color: dimgray;
+    }
+
+    div.source {
+        background-color: dimgray;
+    }
+
+    p.change {
+        width: 60%;
+        height: 30px;
+        background-color: dimgray;
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
