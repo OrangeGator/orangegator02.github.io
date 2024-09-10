@@ -82,12 +82,14 @@ section.container {
     align-items: center;
 }
 
-.table_top {
+table, tr, td.table_top {
+    border: 1px solid black;
     color: white;
     background-color: lightcoral;
 }
 
-.table_title {
+table, tr, td.table_title {
+    border: 1px solid black;
     color: white;
     background-color: cornflowerblue;
 }
