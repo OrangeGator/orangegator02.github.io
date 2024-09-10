@@ -77,14 +77,22 @@ img.image {
     height: auto;
 }
 
-table, tr, td.table_top {
+section.container {
+    display: flex;
+    align-items: center;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+.table_top {
     border: 1px solid black;
     color: white;
     background-color: lightcoral;
 }
 
-table, tr, td.table_title {
-    border: 1px solid black;
+.table_title {
     color: white;
     background-color: cornflowerblue;
 }
