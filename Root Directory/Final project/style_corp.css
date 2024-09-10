@@ -39,16 +39,23 @@ div.source {
     margin: auto;
 }
 
+@keyframes Changer {
+    from {width: 80%}
+    to {width: 100%;}
+}
+
 p.change {
-    width: 100%;
-    height: 30px;
+    width: 80%;
+    height: 40px;
     background-color: white;
     color: white;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     animation-duration: 1.5s;
+    animation-delay: 1s;
     text-align: center;
+    animation-name: Changer;
 }
 
 p.form_title {
@@ -56,6 +63,7 @@ p.form_title {
 }
 p.change:hover {
     background-color: cadetblue;
+    animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 
