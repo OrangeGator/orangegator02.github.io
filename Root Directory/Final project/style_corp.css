@@ -77,6 +77,21 @@ img.image {
     height: auto;
 }
 
+section.container {
+    display: flex;
+    align-items: center;
+}
+
+.table_top {
+    color: white;
+    background-color: lightcoral;
+}
+
+.table_title {
+    color: white;
+    background-color: cornflowerblue;
+}
+
 @media (max-width: 950px) {
     p.change {
         width: 100%;
