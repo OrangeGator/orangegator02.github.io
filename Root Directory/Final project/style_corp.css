@@ -90,11 +90,23 @@ table, tr, td {
     border: 1px solid black;
     color: white;
     background-color: lightcoral;
+    display: flex;
+    align-items: center;
 }
 
 .table_title {
     color: white;
     background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+}
+
+ul.first {
+    list-style-type: square;
+}
+
+ul.second {
+    list-style-type: circle;
 }
 
 @media (max-width: 950px) {
@@ -147,6 +159,22 @@ table, tr, td {
     }
 
     img.image {
+        filter: grayscale(100%);
+    }
+    .table_top {
+        border: 1px solid black;
+        color: white;
+        background-color: lightcoral;
+        display: flex;
+        align-items: center;
+        filter: grayscale(100%);
+    }
+    
+    .table_title {
+        color: white;
+        background-color: cornflowerblue;
+        display: flex;
+        align-items: center;
         filter: grayscale(100%);
     }
 }
