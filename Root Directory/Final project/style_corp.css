@@ -84,8 +84,9 @@ section.container {
 
 table, tr, td {
     border: 1px solid black;
+}
+table.ta {
     display: flex;
-    flex: 100px;
 }
 
 .table_top {
