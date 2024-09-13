@@ -98,15 +98,29 @@ table, tr, td {
     color: white;
     background-color: cornflowerblue;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    flex: 100px;
 }
 
 ul.first {
     list-style-type: square;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 ul.second {
     list-style-type: circle;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+ul.u {
+    display: grid;
+}
+
+.image_a {
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 950px) {
