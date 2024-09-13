@@ -85,7 +85,6 @@ section.container {
 table, tr, td {
     border: 1px solid black;
     display: flex;
-    flex-wrap: wrap;
     flex: 100px;
 }
 
